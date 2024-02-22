@@ -151,6 +151,7 @@ public class UserDao {
         } catch (DataAccessException e) {
             e.printStackTrace();
         }
+//        System.out.println("RETURNING AUTHTOKEN");
         return authToken;
     }
 
